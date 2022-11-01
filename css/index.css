@@ -102,11 +102,13 @@ footer {
     font-family: 'Roboto', sans-serif;
     margin-bottom: auto 0;
 }
+
 .cardContainer {
     margin: auto;
     width: 80vw;
     margin-bottom: 2rem;
 }
+
 .card {
     margin: auto;
     margin-top: 3rem;
@@ -148,3 +150,8 @@ footer {
     transform: scale(1.03);
 }
 
+@media only screen and (max-width: 767px) {
+    .card {
+        width: 60vw;
+    }
+}
